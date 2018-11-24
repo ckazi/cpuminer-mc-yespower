@@ -1914,7 +1914,7 @@ static void signal_handler(int sig)
 static void show_credits()
 {
 	printf("** " PACKAGE_NAME " " PACKAGE_VERSION " by macchky@github **\n");
-	printf("This miner is a fork from \n");
+	printf("This miner is a fork https://github.com/cryptozeny/cpuminer-mc-yespower\n");
 	printf("CRP donation address: CKk18z5ivyGEApm6y2YU4wnvD7DrrUNX9r (ckazu)\n");
 	printf("** yespower 1.0 support by cryply@github **\n");
 	printf("BTC donation address: 1GiqwdbbsDmW4L8mxWGccTbznUE6Qpvkeq (ckazu)\n\n");
