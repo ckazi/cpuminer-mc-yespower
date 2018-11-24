@@ -129,7 +129,7 @@ static char const usage[] = "\
 Usage: " PROGRAM_NAME " [OPTIONS]\n\
 Options:\n\
   -a, --algo=ALGO       specify the algorithm to use\n\
-                          yespower  yespower 0.5 *default*\n\
+                          yespower  (for cryply)\n\
                           yescrypt  yescrypt\n\
                           scrypt    scrypt(1024, 1, 1)\n\
                           scrypt:N  scrypt(N, 1, 1)\n\
@@ -1914,9 +1914,10 @@ static void signal_handler(int sig)
 static void show_credits()
 {
 	printf("** " PACKAGE_NAME " " PACKAGE_VERSION " by macchky@github **\n");
-	printf("ZNY donation address: Zq83XMtc9gShkgi4bNNHWA4FDbMe8dFQmD (macchky)\n");
-	printf("** yespower 0.5 support by cryptozeny@github **\n");
-	printf("ZNY donation address: ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v (cryptozeny)\n\n");
+	printf("This miner is a fork from \n");
+	printf("CRP donation address: CKk18z5ivyGEApm6y2YU4wnvD7DrrUNX9r (ckazu)\n");
+	printf("** yespower 1.0 support by cryply@github **\n");
+	printf("BTC donation address: 1GiqwdbbsDmW4L8mxWGccTbznUE6Qpvkeq (ckazu)\n\n");
 }
 
 int main(int argc, char *argv[])
